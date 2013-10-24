@@ -1,5 +1,5 @@
 {
-  "name": "pm2 daemon watcher",
+  "name": "pm2-daemon-watcher",
   "version": "0.0.1",
   "author": {
     "name": "Sebastian Fastner",
