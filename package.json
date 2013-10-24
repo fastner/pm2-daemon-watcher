@@ -1,7 +1,19 @@
 {
   "name": "pm2-daemon-watcher",
   "version": "0.0.1",
+  "author": {
+    "name": "Sebastian Fastner",
+    "email": "mail@sebastianfastner.de",
+    "url": "http://sebastianfastner.de"
+  },
+  "description": "Daemon watcher for pm2 nodejs process manager",
+  "main":"watcher.js",
   "dependencies" : {
-    "pm2-interface"           : "git://github.com/fastner/pm2-interface.git#fastner"
-  }
+    "pm2-interface" : "git://github.com/fastner/pm2-interface.git#fastner"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "git://github.com/fastner/pm2-daemon-watcher.git"
+  },
+  "license": "Apache v2"
 }
