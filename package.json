@@ -1,0 +1,7 @@
+{
+  "name": "pm2-daemon-watcher",
+  "version": "0.0.1",
+  "dependencies" : {
+    "pm2-interface"           : "git://github.com/fastner/pm2-interface.git#fastner"
+  }
+}
