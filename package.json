@@ -1,5 +1,5 @@
 {
-  "name": "pm2-daemon-watcher",
+  "name": "pm2 daemon watcher",
   "version": "0.0.1",
   "author": {
     "name": "Sebastian Fastner",
@@ -10,6 +10,9 @@
   "main":"watcher.js",
   "dependencies" : {
     "pm2-interface" : "git://github.com/fastner/pm2-interface.git#fastner"
+  },
+  "bin": {
+    "pm2-daemon-watcher": "./bin/pm2-daemon-watcher"
   },
   "repository": {
     "type" : "git",

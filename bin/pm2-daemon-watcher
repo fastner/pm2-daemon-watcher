@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var Watcher     = require('../lib/Watcher');
+
+Watcher.supervise();
